@@ -1,4 +1,4 @@
-#Fri Nov 17 23:37:09 KST 2023
+#Sat Nov 18 14:59:25 KST 2023
 base.0=/Users/leesohee/RiotProject/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/leesohee/RiotProject/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/Users/leesohee/RiotProject/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex

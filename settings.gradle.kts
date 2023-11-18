@@ -16,4 +16,15 @@ dependencyResolutionManagement {
 
 rootProject.name = "RiotProject"
 include(":app")
-include(":home")
+
+include(":feature:home")
+include(":feature:bookmark")
+
+include(":core:navigation")
+include(":core:ui")
+include(":core:domain")
+include(":core:datastore")
+include(":core:model")
+include(":core:designsystem")
+include(":core:data")
+include(":core:network")

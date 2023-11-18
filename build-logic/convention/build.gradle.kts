@@ -6,7 +6,7 @@ plugins {
 }
 
 java {
-    //17로 해야됨...
+    //17로 해야됨...!!
     sourceCompatibility = JavaVersion.VERSION_17
     targetCompatibility = JavaVersion.VERSION_17
 }
@@ -32,10 +32,10 @@ dependencies {
 
 gradlePlugin {
     plugins {
-//        register("androidApplicationCompose") {
-//            id = "riotproject.android.application.compose"
-//            implementationClass = "AndroidApplicationComposeConventionPlugin"
-//        }
+        register("androidApplicationCompose") {
+            id = "riotproject.android.application.compose"
+            implementationClass = "AndroidApplicationComposeConventionPlugin"
+        }
         register("androidApplication") {
             id = "riotproject.android.application"
             implementationClass = "AndroidApplicationConventionPlugin"
@@ -44,18 +44,18 @@ gradlePlugin {
 //            id = "riotproject.android.application.jacoco"
 //            implementationClass = "AndroidApplicationJacocoConventionPlugin"
 //        }
-//        register("androidLibraryCompose") {
-//            id = "riotproject.android.library.compose"
-//            implementationClass = "AndroidLibraryComposeConventionPlugin"
-//        }
-//        register("androidLibrary") {
-//            id = "riotproject.android.library"
-//            implementationClass = "AndroidLibraryConventionPlugin"
-//        }
-//        register("androidFeature") {
-//            id = "riotproject.android.feature"
-//            implementationClass = "AndroidFeatureConventionPlugin"
-//        }
+        register("androidLibraryCompose") {
+            id = "riotproject.android.library.compose"
+            implementationClass = "AndroidLibraryComposeConventionPlugin"
+        }
+        register("androidLibrary") {
+            id = "riotproject.android.library"
+            implementationClass = "AndroidLibraryConventionPlugin"
+        }
+        register("androidFeature") {
+            id = "riotproject.android.feature"
+            implementationClass = "AndroidFeatureConventionPlugin"
+        }
 //        register("androidLibraryJacoco") {
 //            id = "riotproject.android.library.jacoco"
 //            implementationClass = "AndroidLibraryJacocoConventionPlugin"

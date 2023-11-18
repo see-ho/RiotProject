@@ -4,16 +4,16 @@
         "source": "com.seeho.riotproject.app-main-48:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.seeho.riotproject.app-merged_res-46:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.seeho.riotproject.app-main-48:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
         "merged": "com.seeho.riotproject.app-merged_res-46:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "com.seeho.riotproject.app-main-48:/mipmap-hdpi/ic_launcher.webp"
     },
     {
         "merged": "com.seeho.riotproject.app-merged_res-46:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "com.seeho.riotproject.app-main-48:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.seeho.riotproject.app-merged_res-46:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.seeho.riotproject.app-main-48:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "com.seeho.riotproject.app-merged_res-46:/mipmap-xhdpi_ic_launcher.webp.flat",
@@ -28,12 +28,12 @@
         "source": "com.seeho.riotproject.app-main-48:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.seeho.riotproject.app-merged_res-46:/xml_backup_rules.xml.flat",
-        "source": "com.seeho.riotproject.app-main-48:/xml/backup_rules.xml"
-    },
-    {
         "merged": "com.seeho.riotproject.app-merged_res-46:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "com.seeho.riotproject.app-main-48:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.seeho.riotproject.app-merged_res-46:/xml_backup_rules.xml.flat",
+        "source": "com.seeho.riotproject.app-main-48:/xml/backup_rules.xml"
     },
     {
         "merged": "com.seeho.riotproject.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
