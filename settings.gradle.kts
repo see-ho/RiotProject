@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "RiotProject"
 include(":app")
+include(":home")

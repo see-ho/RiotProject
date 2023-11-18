@@ -1,16 +1,18 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    //id("com.android.application")
+    //id("org.jetbrains.kotlin.android")
+    alias(libs.plugins.riotproject.android.application)
+    alias(libs.plugins.riotproject.android.hilt)
 }
 
 android {
     namespace = "com.seeho.riotproject"
-    compileSdk = 33
+//    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.seeho.riotproject"
-        minSdk = 24
-        targetSdk = 33
+//        minSdk = 24
+//        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -29,18 +31,18 @@ android {
             )
         }
     }
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
+//    compileOptions {
+//        sourceCompatibility = JavaVersion.VERSION_1_8
+//        targetCompatibility = JavaVersion.VERSION_1_8
+//    }
+//    kotlinOptions {
+//        jvmTarget = JavaVersion.VERSION_1_8.toString()
+//    }
     buildFeatures {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.3"
+        kotlinCompilerExtensionVersion = "1.5.3"
     }
     packaging {
         resources {
@@ -66,4 +68,7 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+
 }
+
