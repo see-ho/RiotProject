@@ -13,7 +13,7 @@ android {
 }
 
 dependencies {
-    implementation(":core:model")
+    implementation(project(":core:model"))
 
     implementation(libs.coil.kt)
     implementation(libs.coil.kt.svg)

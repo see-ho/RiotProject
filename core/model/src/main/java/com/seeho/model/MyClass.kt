@@ -1,4 +1,5 @@
 package com.seeho.model
 
-class MyClass {
-}
+data class MyClass (
+    val hi : String
+)

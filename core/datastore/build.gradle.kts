@@ -12,7 +12,7 @@ android {
 }
 
 dependencies {
-    implementation(":core:model")
+    implementation(project(":core:model"))
     implementation(libs.androidx.dataStore.core)
     implementation(libs.kotlinx.coroutines.android)
 }

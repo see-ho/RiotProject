@@ -26,9 +26,9 @@ dependencies {
 
     debugApi(libs.androidx.compose.ui.tooling)
 
-    implementation(":core:model")
-    implementation(":core:designsystem")
-    implementation(":core:domain")
+    implementation(project(":core:model"))
+    implementation(project(":core:designsystem"))
+    implementation(project(":core:domain"))
 
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.core.ktx)

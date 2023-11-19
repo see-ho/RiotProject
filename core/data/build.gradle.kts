@@ -10,9 +10,9 @@ android {
 }
 
 dependencies {
-    implementation(":core:datastore")
-    implementation(":core:model")
-    implementation(":core:network")
+    implementation(project(":core:datastore"))
+    implementation(project(":core:model"))
+    implementation(project(":core:network"))
 
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.kotlinx.serialization.json)

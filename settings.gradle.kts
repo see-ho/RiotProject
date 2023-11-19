@@ -18,7 +18,7 @@ rootProject.name = "RiotProject"
 include(":app")
 
 include(":feature:home")
-include(":feature:bookmark")
+include(":feature:bookmarks")
 
 include(":core:navigation")
 include(":core:ui")

@@ -9,8 +9,8 @@ android {
 }
 
 dependencies {
-    implementation(":core:data")
-    implementation(":core:model")
+    implementation(project(":core:data"))
+    implementation(project(":core:model"))
 
 
     implementation(libs.hilt.android)
