@@ -100,34 +100,7 @@ fun RpNavigationBar(
  * @param alwaysShowLabel Whether to always show the label for this item. If false, the label will
  * only be shown when this item is selected.
  */
-@Composable
-fun RpNavigationRailItem(
-    selected: Boolean,
-    onClick: () -> Unit,
-    icon: @Composable () -> Unit,
-    modifier: Modifier = Modifier,
-    selectedIcon: @Composable () -> Unit = icon,
-    enabled: Boolean = true,
-    label: @Composable (() -> Unit)? = null,
-    alwaysShowLabel: Boolean = true,
-) {
-    NavigationRailItem(
-        selected = selected,
-        onClick = onClick,
-        icon = if (selected) selectedIcon else icon,
-        modifier = modifier,
-        enabled = enabled,
-        label = label,
-        alwaysShowLabel = alwaysShowLabel,
-        colors = NavigationRailItemDefaults.colors(
-            selectedIconColor = RpNavigationDefaults.navigationSelectedItemColor(),
-            unselectedIconColor = RpNavigationDefaults.navigationContentColor(),
-            selectedTextColor = RpNavigationDefaults.navigationSelectedItemColor(),
-            unselectedTextColor = RpNavigationDefaults.navigationContentColor(),
-            indicatorColor = RpNavigationDefaults.navigationIndicatorColor(),
-        ),
-    )
-}
+
 
 /**
  * Now in Android navigation rail with header and content slots. Wraps Material 3 [NavigationRail].
@@ -137,20 +110,6 @@ fun RpNavigationRailItem(
  * @param content Destinations inside the navigation rail. This should contain multiple
  * [NavigationRailItem]s.
  */
-@Composable
-fun RpNavigationRail(
-    modifier: Modifier = Modifier,
-    header: @Composable (ColumnScope.() -> Unit)? = null,
-    content: @Composable ColumnScope.() -> Unit,
-) {
-    NavigationRail(
-        modifier = modifier,
-        containerColor = Color.Transparent,
-        contentColor = RpNavigationDefaults.navigationContentColor(),
-        header = header,
-        content = content,
-    )
-}
 
 @Preview
 @Composable

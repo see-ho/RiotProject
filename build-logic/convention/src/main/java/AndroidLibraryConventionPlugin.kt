@@ -24,7 +24,6 @@ class AndroidLibraryConventionPlugin : Plugin<Project> {
                 "testImplementation"(libs.findLibrary("junit4").get())
                 "androidTestImplementation"(libs.findLibrary("junit").get())
                 "androidTestImplementation"(libs.findLibrary("androidx.test.espresso.core").get())
-
             }
         }
     }
