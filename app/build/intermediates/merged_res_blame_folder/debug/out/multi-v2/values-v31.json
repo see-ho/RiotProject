@@ -4,7 +4,7 @@
             "outputFile": "com.seeho.riotproject.app-mergeDebugResources-70:/values-v31/values-v31.xml",
             "map": [
                 {
-                    "source": "/Users/leesohee/.gradle/caches/transforms-3/31f80f9f4864b2a6d2cd8f746a16dd1e/transformed/core-splashscreen-1.0.1/res/values-v31/values-v31.xml",
+                    "source": "/Users/leesohee/.gradle/caches/transforms-3/12ac5be8eda232bbce32287dfacc015d/transformed/core-splashscreen-1.0.1/res/values-v31/values-v31.xml",
                     "from": {
                         "startLines": "2,9",
                         "startColumns": "4,4",

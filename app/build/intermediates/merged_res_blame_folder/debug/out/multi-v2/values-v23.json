@@ -4,7 +4,7 @@
             "outputFile": "com.seeho.riotproject.app-mergeDebugResources-70:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/leesohee/.gradle/caches/transforms-3/e976606e23ca43042e6935dbffda6e13/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
+                    "source": "/Users/leesohee/.gradle/caches/transforms-3/e1d34d2c2a5cd41fee3e2b62ee5561bd/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

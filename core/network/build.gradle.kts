@@ -22,5 +22,6 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.okhttp.logging)
     implementation(libs.retrofit.core)
+    implementation(libs.retrofit.converter)
     implementation(libs.retrofit.kotlin.serialization)
 }
