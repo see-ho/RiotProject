@@ -22,6 +22,5 @@ fun RpNavHost(
     ) {
         homeScreen()
         bookmarksScreen()
-
     }
 }
